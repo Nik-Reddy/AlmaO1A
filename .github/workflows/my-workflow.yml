@@ -35,6 +35,9 @@ jobs:
       env:
         HEROKU_APP_NAME: almao1a
       run: heroku git:remote -a $HEROKU_APP_NAME
+
+    - name: List Git remotes
+      run: git remote -v
     
     - name: Deploy to Heroku
       env:
@@ -43,4 +46,4 @@ jobs:
         git fetch --unshallow
         git config --global user.email "nikhilreddyp29@gmail.com"
         git config --global user.name "Nikhil Reddy"
-        git push AlmaO1A HEAD:main
+        git push heroku HEAD:main
