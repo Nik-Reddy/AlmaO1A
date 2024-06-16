@@ -27,8 +27,8 @@ Before you can run this application, you'll need to have the following installed
 
 
 #### Start by cloning this repository to your local machine:
-git clone https://github.com/yourusername/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/<yourusername>/<your-repository-name.git>
+cd <your-repository-name>
 
 ##### Install Dependencies mentioned on "requirements.txt"
 pip install -r requirements.txt
