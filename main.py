@@ -64,6 +64,7 @@ async def create_upload_file(request: Request, file: UploadFile = File(...)):
     try:
         # Call the OpenAI API with the extracted text and configured prompt
         api_key = get_api_key()  # Ensure the API key is fetched securely
+        print(api_key)
         openai.api_key = api_key
         response = openai.ChatCompletion.create(
             model="gpt-4", # Can use other LLMs : gpt-3.5-turbo
