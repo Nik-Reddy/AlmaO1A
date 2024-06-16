@@ -5,6 +5,23 @@ Welcome to our FastAPI application for CV (Curriculum Vitae) analysis! This proj
 ## Site is  live at:
 https://nik-reddy.github.io/AlmaO1A/
 
+## Docuemtns Walkhtough:
+### Design and Evaluation_Present Scope.pdf: 
+Explains the current working solution I developed using GPT-4 and other LLMs 
+### System Design for Large Scale.pdf:
+Future scope and enhancement that can be made to the current system to handle a large user base.
+### main.py: 
+Python Script that contains the FAST API development and use of LLM  model to provide the response for a given USER CV as text input.
+### Prompt_file.txt: 
+This file Contains the prompting approach used in the process of understanding the input CV text and provides systematic approach to analyze and provide results based on the given 8 criteria to classify a user into a [LOW, MEDIUM, HIGH] qualified category.
+
+•	Prompt Engineering: Leveraged various prompting techniques like:
+	Chain of Thought (CoT) Prompting: mimic a step-by-step reasoning process
+	Contextual Embedding: setting the stage for the kind of analysis required
+	Explicit Instruction: instructs the model on the format and depth of the analysis required
+	Simulated Role-Playing: sets up a role for the language model to adopt—that of an immigration consultant—which is a form of role-playing:
+	Iterative Refinement: An iterative approach to evaluating the CV, where each criterion is assessed independently before a final judgment is made.
+
 ## Features
 ### PDF Upload: 
 Users can upload PDF files, which the system will process to extract text.
