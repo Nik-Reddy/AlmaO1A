@@ -28,25 +28,25 @@ Before you can run this application, you'll need to have the following installed
 
 #### Start by cloning this repository to your local machine:
 git clone https://github.com/<yourusername>/<your-repository-name.git>
-cd <your-repository-name>
 
 ##### Install Dependencies mentioned on "requirements.txt"
 pip install -r requirements.txt
 
-Set Environment Variables
+##### Set Environment Variables
 You'll need to set the OPENAI_API_KEY environment variable to use the OpenAI services:
 
 
 export OPENAI_API_KEY='your_openai_api_key_here'
-Running the Application
-To run the application, execute:
 
+
+### Running the Application
+##### To run the application, execute:
 uvicorn main:app --host <IPV4 Address> --port 8000
 Navigate to http://localhost:8000 in your web browser to see the application in action.
 
-Usage
-Upload a CV: Use the web interface to upload a PDF file containing a CV.
-Review Analysis: After the CV is processed, the analysis will be displayed on the web page.
+## Usage
+##### Upload a CV: Use the web interface to upload a PDF file containing a CV.
+##### Review Analysis: After the CV is processed, the analysis will be displayed on the web page.
 
 If you have suggestions for improvements, please fork the repo and submit a pull request, or open an issue with the tag "enhancement".
 
