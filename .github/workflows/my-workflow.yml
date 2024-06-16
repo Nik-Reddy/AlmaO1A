@@ -1,5 +1,4 @@
 name: Python Application Workflow
-
 on:
   push:
     branches: [ "main" ]
