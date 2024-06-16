@@ -73,5 +73,5 @@ Navigate to http://localhost:8000 in your web browser to see the application in 
 ##### Review Analysis: After the CV is processed, the analysis will be displayed on the web page.
 ![image](https://github.com/Nik-Reddy/AlmaO1A/assets/41942071/e8c5b93d-7056-439b-84ae-23fb388bad51)
 
-##### Click GoBack to redirect to the home page to upload other documents to evaluate another document
+##### Click GoBack to redirect to the home page to upload other documents to start evaluating another document
 If you have suggestions for improvements, please fork the repo and submit a pull request, or open an issue with the tag "enhancement".
