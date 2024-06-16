@@ -70,8 +70,24 @@ Navigate to http://localhost:8000 in your web browser to see the application in 
 ![image](https://github.com/Nik-Reddy/AlmaO1A/assets/41942071/c8e4afcc-10e6-4e79-af19-071186b8e6c6)
 
 
-##### Review Analysis: After the CV is processed, the analysis will be displayed on the web page.
+#### Review Analysis: After the CV is processed, the analysis will be displayed on the web page.
 ![image](https://github.com/Nik-Reddy/AlmaO1A/assets/41942071/e8c5b93d-7056-439b-84ae-23fb388bad51)
 
-##### Click GoBack to redirect to the home page to upload other documents to start evaluating another document
+##### Structure of the Analysis Results: For a given sample Resume. (Attached in Sample Resumes Folder)
+Criterion-Based Evaluation: Each of the eight criteria necessary for the O-1A visa has been individually assessed. The results are presented in a list format, with each criterion followed by a rating (Low, Medium, High) and a brief explanation justifying the rating:
+Awards: The candidate's CV did not mention any nationally or internationally recognized awards, resulting in a "Low" rating.
+Membership: No memberships requiring outstanding achievements were noted, thus a "Low" rating.
+Press: The absence of significant publications also leads to a "Low" rating.
+Judging: Lack of evidence regarding participation as a judge in the field results in a "Low" rating.
+Original Contribution: This category received a "High" rating, indicating significant contributions such as innovative algorithms or models noted in the CV.
+Scholarly Articles: Despite some publications, the lack of articles in professional journals resulted in a "Low" rating.
+Critical Employment: The candidate has held important roles in reputable organizations, meriting a "Medium" rating.
+High Remuneration: With insufficient information on salary or remuneration compared to peers, this criterion also received a "Low" rating.
+Overall Evaluation:
+The summary compiles the ratings across all criteria, providing an overall evaluation of the candidate's qualifications for an O-1A visa:
+High: The candidate meets high standards in original contributions.
+Medium: Significant employment roles are acknowledged.
+Low: Most criteria including awards, membership, press, judging, scholarly articles, and high remuneration did not meet the high standards required.
+
+#### Click GoBack to redirect to the home page to upload other documents to start evaluating another document
 If you have suggestions for improvements, please fork the repo and submit a pull request, or open an issue with the tag "enhancement".
