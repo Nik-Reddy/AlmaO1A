@@ -6,7 +6,7 @@ Welcome to our FastAPI application for CV (Curriculum Vitae) analysis! This proj
 Users can upload PDF files, which the system will process to extract text.
 
 ### Text Analysis: 
-The extracted text is analyzed by OpenAI's GPT models, providing insights based on predefined criteria.
+The extracted text is analyzed by OpenAI's GPT models or other LLMs (Used GPT 4 and GPT 3.5 Turbo as part of the implementation for now), providing insights based on predefined criteria.
 
 ### Responsive Web Interface: 
 The application includes a basic but functional web interface for easy interaction with the API.
