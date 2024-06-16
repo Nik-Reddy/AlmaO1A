@@ -43,4 +43,4 @@ jobs:
         git fetch --unshallow
         git config --global user.email "nikhilreddyp29@gmail.com"
         git config --global user.name "Nikhil Reddy"
-        git push heroku HEAD:main
+        git push AlmaO1A HEAD:main
