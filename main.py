@@ -13,6 +13,12 @@ app = FastAPI()
 # Set up Jinja2 for HTML templating, pointing to the directory where templates are stored
 templates = Jinja2Templates(directory="templates")
 
+def get_api_key():
+    """Retrieve the OPENAI_API_KEY from environment variables."""
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("API key is not set. Please ensure the OPENAI_API_KEY environment variable is configured.")
+    return api_key
 
 # Endpoint to serve the main HTML page with the file upload form
 @app.get("/", response_class=HTMLResponse)
@@ -50,12 +56,14 @@ async def create_upload_file(request: Request, file: UploadFile = File(...)):
         # Return an error if loading the prompt template fails
         return JSONResponse(status_code=500, content={"message": f"Error loading prompt template: {e}"})
 
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        raise ValueError("API key is not set")
+    # api_key = os.getenv("OPENAI_API_KEY")
+    # if not api_key:
+    #     raise ValueError("API key is not set")
+
     
     try:
         # Call the OpenAI API with the extracted text and configured prompt
+        api_key = get_api_key()  # Ensure the API key is fetched securely
         openai.api_key = api_key
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
