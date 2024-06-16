@@ -5,7 +5,7 @@ Welcome to our FastAPI application for CV (Curriculum Vitae) analysis! This proj
 ## Site is  live at:
 https://nik-reddy.github.io/AlmaO1A/
 
-## Docuemnts Walkhtough:
+## Documents Walkhtough:
 ### Design and Evaluation_Present Scope.pdf: 
 Explains the current working solution I developed using GPT-4 and other LLMs 
 ### System Design for Large Scale.pdf:
