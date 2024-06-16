@@ -26,11 +26,11 @@ These instructions will get you a copy of the project up and running on your loc
 Before you can run this application, you'll need to have the following installed:
 #### Python 3.8 or higher
 #### Pip (Python package installer)
-#### Installation
+
+
+## Installation
 #### Clone the Repository
-
-
-#### Start by cloning this repository to your local machine:
+##### Start by cloning this repository to your local machine:
 git clone https://github.com/<yourusername>/<your-repository-name.git>
 
 ##### Install Dependencies mentioned on "requirements.txt"
