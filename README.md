@@ -5,15 +5,15 @@ Welcome to our FastAPI application for CV (Curriculum Vitae) analysis! This proj
 ## Site is  live at:
 https://nik-reddy.github.io/AlmaO1A/
 
-## Docuemtns Walkhtough:
+## Docuemnts Walkhtough:
 ### Design and Evaluation_Present Scope.pdf: 
 Explains the current working solution I developed using GPT-4 and other LLMs 
 ### System Design for Large Scale.pdf:
-Future scope and enhancement that can be made to the current system to handle a large user base.
+Future scope and enhancement can be made to the current system to handle a large user base.
 ### main.py: 
-Python Script that contains the FAST API development and use of LLM  model to provide the response for a given USER CV as text input.
+Python Script that contains the FAST API development and use of LLM  model to respond to a given USER CV as text input.
 ### Prompt_file.txt: 
-This file Contains the prompting approach used in the process of understanding the input CV text and provides systematic approach to analyze and provide results based on the given 8 criteria to classify a user into a [LOW, MEDIUM, HIGH] qualified category.
+This file contains the prompting approach used in the process of understanding the input CV text and provides a systematic approach to analyze and provide results based on the given 8 criteria to classify a user into a [LOW, MEDIUM, HIGH] qualified category.
 
 ### Prompt Engineering: Leveraged various prompting techniques like:
 ##### Chain of Thought (CoT) Prompting: mimic a step-by-step reasoning process
