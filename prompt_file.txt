@@ -1,0 +1,199 @@
+Problem Statement: Act or behave like a O1-A Visa imigration consultant expert or agent who evaluates the Candidate CV to provide the insights based on the below criteria.
+Now, evaluate the following user or candidate CV to determine if the applicant meets the criteria for an O-1A immigration visa. The criteria and their explanations are as follows:
+
+And, I'm going to tip you $1 Million for a better solution!
+
+User Profile Context: {text}
+
+    Criteria for Evaluation: Source: Appendices(https://www.uscis.gov/policy-manual/volume-2-part-m-chapter-4#3)
+	For each of these criteria, providing examples, considerations to be followed and some sample resume to understand the context better about each criteria.
+    1. Awards: Identify documentation of beneficiary's receipt of any nationally or internationally recognized prizes or awards for excellence in the field of endeavor.
+    - Awards: [Extracted content related to Awards if exists on CV]
+		Providing Examples for reference to understand this:
+		1. Awards from well-known national institutions and well-known professional associations.
+		2. Certain doctoral dissertation awards and Ph.D. scholarships.
+		3. Certain awards recognizing presentations at nationally or internationally recognized conferences.
+
+		Considerations focused for analyzing the CV alignment with this criteria:
+		While many scholastic awards do not have the requisite level of recognition, there are some Ph.D. scholarships or dissertation awards, for example, that are nationally or internationally recognized as awards for excellence such that they may satisfy the requirements of this criterion.
+		Relevant considerations include, but are not limited to:
+			1. The criteria use to grant the awards or prizes;
+			2. The national or international significance of the awards or prizes in the field;
+			3. The number of awardees or prize recipients; and
+			4. Limitations on eligible competitors.
+		For example, an award available only to persons within a single locality, employer, or school may have little national or international recognition, while an award open to members of a well-known national institution (including an R1 or R2 doctoral university[2]) or professional organization may be nationally recognized.
+
+
+	2. Membership: List memberships in associations that require outstanding achievements. i.e., Documentation of the beneficiary's membership in associations in the field for which classification is sought, which require outstanding achievements of their members, as judged by recognized national or international experts in their disciplines or fields.
+	    List memberships in associations that require outstanding achievements.
+	    Candidate Profile:
+        - Listed Memberships: [Extracted content related to Membership, e.g., IEEE Fellow, AAAI Fellow, Royal Society Member, National Academy of Sciences Member]
+        - Contributions to the Field: [Details of contributions or roles within these organizations, if available on the CV]
+
+        Membership Details:
+        1. IEEE Fellow: Recognized for substantial contributions to engineering and technology, this membership is awarded based on advancements that significantly benefit society and is judged by existing IEEE Fellows.
+        2. AAAI Fellow: Awarded for sustained and significant contributions to the field of artificial intelligence, with nominations judged by current AAAI fellows.
+        3. Other Memberships: Include any additional prestigious memberships the candidate holds in scientific research organizations across various sectors like sciences, education, business or athletics (not including the arts, motion pictures or television industry).
+        Each membership should be described, noting the criteria for achievement and the level of recognition it entails.
+
+        - Membership: [Extracted content related to Membership if exists on the CV]
+            Providing some Examples for reference to understand this:
+                1. Membership in certain professional associations.
+                2. Fellowships with certain organizations or institutions.
+
+        Request for Analysis:
+        - Evaluate whether the listed memberships qualify as 'outstanding achievements' under the O-1A visa criteria.
+        - Consider the standards and requirements for attaining these memberships, focusing on the significance of the candidate’s contributions or roles within these associations.
+        - Assess if the candidate's memberships meet the high standards typically required for O-1A qualification, providing a classification of low, medium, or high likelihood that the membership criterion is met.
+
+        Additional Context:
+        - The O-1A visa requires that the applicant's achievements in their field are recognized internationally or nationally. Memberships must not only be in prestigious associations but also awarded based on peer recognition of the individual’s substantial contributions to the field.
+
+		Considerations focused for analyzing the CV alignment with this criteria:
+			1. The petitioner must show that membership in the association requires outstanding achievements in the field for which classification is sought, as judged by recognized national or international experts.
+			2. Associations may have multiple levels of membership. The petitioner must show that in order to obtain the level of membership afforded to the beneficiary, the beneficiary was judged by recognized national or international experts as having attained outstanding achievements in the field for which classification is sought.
+			3. As a possible example, membership in the Institute of Electrical and Electronics Engineers (IEEE) at the IEEE fellow level requires, in part, that a nominee have "accomplishments that have contributed importantly to the advancement or application of engineering, science and technology, bringing the realization of significant value to society," and nominations are judged by an IEEE council of experts and a committee of current IEEE fellows.[4]
+			4. As another possible example, membership as a fellow in the Association for the Advancement of Artificial Intelligence (AAAI) is based on recognition of a nominee's "significant, sustained contributions" to the field of artificial intelligence, and is judged by a panel of current AAAI fellows.[5]
+			5. Relevant factors that may lead an officer to a conclusion that the person's membership in one or more associations was not based on outstanding achievements in the field include, but are not limited to, instances where the person's membership was based:
+			6. Solely on a level of education or years of experience in a particular field;
+			7. On the payment of a fee or by subscribing to an association's publications; or On a requirement, compulsory or otherwise, for employment in certain occupations, such as union membership.
+
+
+	3. Press: Published material in professional or major trade publications or major media about the beneficiary, relating to the beneficiary's work in the field for which classification is sought. This evidence must include the title, date, and author of such published material and any necessary translation. Cite any major media mentions.
+	-Press: [Extracted content related to Press if exists on the CV]
+		Providing some Examples for reference to understand this:
+			Professional or major print publications (newspaper articles, popular and academic journal articles, books, textbooks, or similar publications) regarding the beneficiary and the beneficiary's work.
+			Professional or major online publications regarding the beneficiary and the beneficiary's work.
+			Transcript of professional or major audio or video coverage of the beneficiary and the beneficiary's work.
+
+		Considerations focused for analyzing the CV alignment with this criteria:
+			Published material that includes only a brief citation or passing reference to the beneficiary's work is not "about" the beneficiary, relating to the beneficiary's work in the field, as required under this criterion. However, the beneficiary and the beneficiary's work need not be the only subject of the material; published material that covers a broader topic but includes a substantial discussion of the beneficiary's work in the field and mentions the beneficiary in connection to the work may be considered material "about" the beneficiary relating to their work.
+			Moreover, officers may consider material that focuses solely or primarily on work or research being undertaken by a team of which the beneficiary is a member, provided that the material mentions the beneficiary in connection with the work, or other evidence in the record documents the beneficiary's significant role in the work or research.
+			In evaluating whether a submitted publication is a professional publication, major trade publication, or major media, relevant factors include the intended audience (for professional and major trade publications) and the relative circulation, readership, or viewership (for major trade publications and other major media).
+
+
+	4. Judging : Evidence of the beneficiary's participation on a panel, or individually, as a judge of the work of others in the same or in an allied field of specialization for which classification is sought. Detail experience judging the work of peers.
+	-Judging: [Extracted content related to judging experiences if present on the CV]
+		Providing some Examples for reference to understand this:
+			Reviewer of abstracts or papers submitted for presentation at scholarly conferences in the respective field.
+			Peer reviewer for scholarly publications.
+			Member of doctoral dissertation committees.
+			Peer reviewer for government research funding programs.
+
+		Considerations focused for analyzing the CV alignment with this criteria:
+			The petitioner must show that the beneficiary has not only been invited to judge the work of others, but also that the beneficiary actually participated in the judging of the work of others in the same or allied field of specialization.
+			For example, a petitioner might document a beneficiary's peer review work by submitting a copy of a request from a journal to the beneficiary to do the review, accompanied by evidence confirming that the beneficiary actually completed the review.
+
+
+	5. Original contribution - Evidence of the beneficiary's original scientific, scholarly, or business-related contributions of major significance in the field. Describe any original contributions of significance.
+	- Original Contribution: [Extracted content related to original contributions if exists on CV]
+		Providing some Examples for reference to understand this:
+			Published materials about the significance of the beneficiary's original work.
+			Testimonials, letters, and affidavits about the beneficiary's original work.
+			Documentation that the beneficiary's original work was cited at a level indicative of major significance in the field.
+			Patents or licenses deriving from the beneficiary's work or evidence of commercial use of the beneficiary's work.
+
+		Considerations focused for analyzing the CV alignment with this criteria:
+			Analysis under this criterion focuses on whether the beneficiary's original work constitutes major, significant contributions to the field.
+			Evidence that the beneficiary's work was funded, patented, or published, while potentially demonstrating the work's originality, will not necessarily establish, on its own, that the work is of major significance to the field. However, published research that has provoked widespread commentary on its importance from others working in the field, and documentation that it has been highly cited relative to other works in that field, may be probative of the significance of the beneficiary's contributions to the field of endeavor.
+			Similarly, evidence that the beneficiary developed a patented technology that has attracted significant attention or commercialization may establish the significance of the beneficiary's original contribution to the field. If a patent remains pending, USCIS will likely require additional supporting evidence to document the originality of the beneficiary's contribution.
+			Detailed letters from experts in the field explaining the nature and significance of the beneficiary's contribution(s) may also provide valuable context for evaluating the claimed original contributions of major significance, particularly when the record includes documentation corroborating the claimed significance.
+			Submitted letters should specifically describe the beneficiary's contribution and its significance to the field and should also set forth the basis of the writer's knowledge and expertise.
+
+
+	6. Scholarly Articles -  Evidence of the beneficiary's authorship of scholarly articles in the field, in professional journals, or other major media. List publications in professional journals.
+	- Scholarly Articles: [Extracted content related to scholarly articles if exists on the CV]
+		Providing some Examples for reference to understand this:
+			Publications in professionally-relevant journals.
+			Published conference presentations at nationally or internationally recognized conferences.
+
+		Considerations focused for analyzing the CV alignment with this criteria:
+			In order to meet this criterion, the beneficiary must be a listed author of the submitted article(s) but need not be the sole or first author. In addition, a petitioner need not provide evidence that the beneficiary's published work has been cited to meet this criterion.[11]
+			In addition, the articles must be scholarly. In the academic arena, a scholarly article reports on original research, experimentation, or philosophical discourse. It is written by a researcher or expert in the field who is often affiliated with a college, university, or research institution and the article is normally peer-reviewed.
+			In general, it should have footnotes, endnotes, or a bibliography, and may include graphs, charts, videos, or pictures as illustrations of the concepts expressed in the article. In non-academic arenas, a scholarly article should be written for learned persons in that field.
+			In evaluating whether a submitted publication is a professional publication or major media, relevant factors include the intended audience (for professional journals) and the circulation or readership relative to other media in the field (for major media).
+
+	7. Critical Employment: Highlight critical roles in reputable organizations. Evidence that the beneficiary has been employed in a critical or essential capacity for organizations and establishments that have a distinguished reputation. Highlight critical roles in reputable organizations.
+	- Critical Employment: [Extracted content related to critical employment roles if exists on the CV]
+		Providing some Examples for reference to understand this:
+			Senior faculty or senior research position for a distinguished academic department or program.
+			Senior research position for a distinguished non-academic institution or company.
+			Principal or named investigator for a department, institution, or business that received a merit-based government award, such as an academic research or Small Business Innovation Research (SBIR) grant.[13]
+			Member of a key committee within a distinguished organization.
+			Founder or co-founder of, or contributor of intellectual property to, a startup business that has a distinguished reputation.
+			Critical or essential supporting role for a distinguished organization or a distinguished division of an institution or company, as explained in detail by the director or a principal investigator of the relevant organization or division.
+
+		Considerations focused for analyzing the CV alignment with this criteria:
+			To show a critical role, the evidence should establish that the beneficiary has contributed in a way that is of significant importance to the organization or establishment's activities. To show an essential role, the evidence should establish that the beneficiary's role is (or was) integral to the entity. A leadership role in an organization often qualifies as critical or essential.
+			For a supporting role to be considered critical or essential, USCIS considers other factors, such as whether the beneficiary's performance in the role is (or was) integral or important to the organization or establishment's goals or activities, especially in relation to others in similar positions within the organization.
+			It is not the title of the beneficiary's role, but rather the beneficiary's duties and performance in the role that determines whether the role is (or was) critical or essential. Detailed letters from persons with personal knowledge of the significance of the beneficiary's role can be particularly helpful in analyzing this criterion. The organization need not have directly employed the beneficiary.
+			In addition, the organization or establishment must be recognized as having a distinguished reputation. Relevant factors for evaluating the reputation of an organization or establishment can include the scale of its customer base, longevity, or relevant media coverage.
+			For academic departments, programs, and institutions, officers may also consider national rankings and receipt of government research grants as positive factors in some cases.
+			For a startup business, officers may consider evidence that the business has received significant funding from government entities, venture capital funds, angel investors, or other such funders commensurate with funding rounds generally achieved for that startup's stage and industry, as a positive factor regarding its distinguished reputation.
+
+	8. High Remuneration: Provide evidence of high salary compared to peers.
+	- High Remuneration: [Extracted content related to remuneration if exists on the CV or analyze based on the given examples or considerations]
+		Providing some Examples for reference to understand this:
+			1. Tax returns, pay statements, or other evidence of past salary or remuneration for services.
+			2. Contract, job offer letter, or other evidence of prospective salary or remuneration for services.
+			3. Comparative wage or remuneration data for the beneficiary's field, such as geographical or position-appropriate compensation surveys.
+
+		Sample:
+		Evaluate the remuneration level of the following candidate to determine if it meets the high remuneration criterion for an O-1A visa based on the role and employer's prestige in the industry. The candidate's CV does not directly list salary details but includes significant employment history.
+		Candidate Profile:
+		- Current Role: [Insert Candidate's Current Role, e.g., Senior Machine Learning Engineer]
+		- Current Employer: [Insert Employer Name, e.g., Google]
+		- Industry Sector: [Insert Industry Sector, e.g., Technology]
+		- Location: [Insert Location, e.g., Silicon Valley, USA]
+
+		Relevant Background Information:
+		- The candidate's current employer, [Employer Name], is known as a leader in the [Industry, e.g., technology] sector, renowned for significant contributions to [Field/Area, e.g., machine learning and artificial intelligence].
+		- Positions such as [Current Role] at top-tier companies like [Employer Name] in [Location] are known to command premium remuneration packages due to high demand and the critical nature of these roles in advancing industry standards and innovations.
+
+		External Reference Data for Consideration:
+		- According to the Bureau of Labor Statistics, the average salary for [Candidate's Job Title or Similar Roles] in [Location or similar economic region] is [Insert relevant salary data if known or available].
+		- Reports from Career One Stop suggest that the median compensation for roles similar to [Insert Specific Job or Field] in [Location] typically ranges in the upper quartile of industry standards.
+
+		Request for Analysis:
+		Analyze the likelihood that the candidate's remuneration is considered high within the context of their field and location based on industry standards, company reputation, and the strategic importance of the role.
+		Assess if such positions are typically associated with high remuneration compared to industry averages and provide a classification of low, medium, or high likelihood that the remuneration meets the O-1A visa high remuneration criterion.
+
+		Considerations focused for analyzing the CV alignment with this criteria:
+		If the petitioner is claiming to meet this criterion, then the burden is on the petitioner to provide appropriate evidence establishing that the beneficiary's compensation is high relative to others working in similar occupations in the field. The following webpages, among others, may be helpful in evaluating the relative compensation for a given field:
+		The Bureau of Labor Statistics (BLS) Overview of BLS Wage Data by Area and Occupation webpage; and
+		The Department of Labor's Career One Stop webpage.
+		Officers should evaluate persons working outside of the United States based on the wage statistics or comparable evidence for that locality, rather than by simply converting the salary to U.S. dollars and then viewing whether that salary would be considered high in the United States.
+		For entrepreneurs or founders of startup businesses, officers consider evidence that the business has received significant funding from government entities, venture capital funds, angel investors, or other such funders in evaluating the credibility of submitted contracts, job offer letters, or other evidence of prospective salary or remuneration for services.
+
+    Define thresholds for each criterion to classify the evidence as low, medium, or high.
+    Then, evaluate the overall chance (Low, Medium, High) the applicant qualifies for an O-1A visa based on the information provided.
+    On Overall evaluation of the 8 criterias, for example, an applicant is given a rating below:
+        High: Meets more than 5 criteria with strong evidence.
+        Medium: Meets 3-5 criteria with moderate evidence.
+        Low: Meets fewer than 3 criteria or evidence is weak.
+
+    Instructions for Evaluation:
+    - Assess each criterion based on the evidence provided. Assign a score of 1 if the criterion is clearly met with strong evidence, and 0 if the evidence is weak or the criterion is not met.
+    - Sum the scores for all criteria to determine the overall evaluation score.
+
+    Output Requirements:
+    - List all relevant qualifications aligned to each criterion and provide detailed descriptions.
+    - Provide a summary assessment for each criterion, classifying it as Low, Medium, or High based on individual scores.
+    - Determine the overall likelihood of qualifying for an O-1A visa based on the total score:
+      - High: Meets more than 5 criteria with strong evidence (5-8 points).
+      - Medium: Meets 3-5 criteria with moderate evidence (3-4 points).
+      - Low: Meets fewer than 3 criteria or evidence is weak (0-2 points).
+
+    Further, provide a crisp classification of each criteria of the CV specific to [Low, Medium, High]
+    Consider this sample for your reference and provide the repsosne in the same format for any given CV:
+    In summary, for a given sample CV:
+         Awards: Medium
+         Membership: Low
+         Press: Low
+         Judging: Low
+         Original Contribution: High
+         Scholarly articles: Low
+         Critical employment: High
+         High remuneration: Medium
+
+    Finally, Provide a detailed analysis and classification for each criterion as well as an overall rating (Low, Medium, High) and overall criteria met as a score based on the criteria outlined above.
