@@ -90,5 +90,5 @@ The summary compiles the ratings across all criteria, providing an overall evalu
 ##### Medium: Significant employment roles are acknowledged.
 ##### Low: Most criteria including awards, membership, press, judging, scholarly articles, and high remuneration did not meet the high standards required.
 
-#### Click GoBack to redirect to the home page to upload other documents to start evaluating another document
+#### Click "GoBack" to redirect to the home page to upload other documents to start evaluating another document
 If you have suggestions for improvements, please fork the repo and submit a pull request, or open an issue with the tag "enhancement".
