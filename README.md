@@ -54,6 +54,3 @@ Navigate to http://localhost:8000 in your web browser to see the application in 
 
 
 If you have suggestions for improvements, please fork the repo and submit a pull request, or open an issue with the tag "enhancement".
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
