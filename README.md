@@ -46,7 +46,12 @@ Navigate to http://localhost:8000 in your web browser to see the application in 
 
 ## Usage
 ##### Upload a CV: Use the web interface to upload a PDF file containing a CV.
+![image](https://github.com/Nik-Reddy/AlmaO1A/assets/41942071/c8e4afcc-10e6-4e79-af19-071186b8e6c6)
+
+
 ##### Review Analysis: After the CV is processed, the analysis will be displayed on the web page.
+![image](https://github.com/Nik-Reddy/AlmaO1A/assets/41942071/e8c5b93d-7056-439b-84ae-23fb388bad51)
+
 
 If you have suggestions for improvements, please fork the repo and submit a pull request, or open an issue with the tag "enhancement".
 
