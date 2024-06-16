@@ -1,6 +1,10 @@
 # AlmaO1A
 Welcome to our FastAPI application for CV (Curriculum Vitae) analysis! This project is designed to help you analyze CVs using OpenAI's powerful GPT models, extracting and interpreting text from uploaded PDF files. Whether you're looking to implement this as a part of a larger project or just want to explore AI capabilities, this application provides a robust starting point.
 
+
+## Site is  live at:
+https://nik-reddy.github.io/AlmaO1A/
+
 ## Features
 ### PDF Upload: 
 Users can upload PDF files, which the system will process to extract text.
