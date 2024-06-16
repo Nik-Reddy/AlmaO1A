@@ -1,5 +1,5 @@
 fastapi
 uvicorn[standard]
 pdfplumber
-openai
+openai==0.28
 jinja2
