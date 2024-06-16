@@ -1,22 +1,24 @@
 # AlmaO1A
-FastAPI Application for CV Analysis
 Welcome to our FastAPI application for CV (Curriculum Vitae) analysis! This project is designed to help you analyze CVs using OpenAI's powerful GPT models, extracting and interpreting text from uploaded PDF files. Whether you're looking to implement this as a part of a larger project or just want to explore AI capabilities, this application provides a robust starting point.
 
 Features
-PDF Upload: Users can upload PDF files, which the system will process to extract text.
-Text Analysis: The extracted text is analyzed by OpenAI's GPT models, providing insights based on predefined criteria.
-Responsive Web Interface: The application includes a basic but functional web interface for easy interaction with the API.
-Secure Secret Management: API keys and other sensitive data are managed securely via environment variables.
-Getting Started
+## PDF Upload: Users can upload PDF files, which the system will process to extract text.
+## Text Analysis: The extracted text is analyzed by OpenAI's GPT models, providing insights based on predefined criteria.
+## Responsive Web Interface: The application includes a basic but functional web interface for easy interaction with the API.
+### Secure Secret Management: API keys and other sensitive data are managed securely via environment variables.
+
+
+## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
 
 Prerequisites
 Before you can run this application, you'll need to have the following installed:
 
-Python 3.8 or higher
-Pip (Python package installer)
-Installation
-Clone the Repository
+#### Python 3.8 or higher
+#### Pip (Python package installer)
+#### Installation
+#### Clone the Repository
 
 Start by cloning this repository to your local machine:
 
