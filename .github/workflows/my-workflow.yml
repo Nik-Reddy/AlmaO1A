@@ -40,8 +40,6 @@ jobs:
       run: git remote -v
     
     - name: Deploy to Heroku
-      env:
-        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Ensure this is available during the run
       run: |
         git fetch --unshallow
         git config --global user.email "nikhilreddyp29@gmail.com"
