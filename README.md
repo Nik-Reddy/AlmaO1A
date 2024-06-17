@@ -65,6 +65,7 @@ You'll need to set the OPENAI_API_KEY, and HEROKU_API_KEY environment variables 
 
 #### Deployment:
 •	Heroku: Chosen for hosting the live application, to leverage Heroku's dynamic scaling and operational flexibility and insightful operational calculations.
+
 •	Procfile Integration: Contains the command web: uvicorn main:app --host 0.0.0.0 --port $PORT to instruct Heroku on how to start the application.
 
 #### Security and API Integration:
