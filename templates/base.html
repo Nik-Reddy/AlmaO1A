@@ -1,3 +1,5 @@
+<!--# Author: Nikhil Reddy-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,12 +30,12 @@
             justify-content: center;
             min-height: 70vh;
             width: 100%;
-            max-width: 480px; /* Limiting max width for readability */
+            max-width: 800px; /* Adjusted max width for readability */
             margin: auto;
         }
         form {
             width: 100%;
-            max-width: 375px;
+            max-width: 600px; /* Adjusted max width for form */
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             padding: 20px;
             background: white;
@@ -53,6 +55,7 @@
             color: white;
             border: none;
             cursor: pointer;
+            transition: background-color 0.3s ease;
         }
         button:hover {
             background-color: #004494;
@@ -62,18 +65,59 @@
             padding: 10px;
             border-radius: 5px;
             overflow: auto;
+            max-width: 100%; /* Ensure pre element does not exceed container width */
+            width: 100%; /* Make pre element take full width */
+            white-space: pre-wrap; /* Wrap text to avoid horizontal scrolling */
+            word-wrap: break-word; /* Break long words to fit within the container */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f4f4f9 0%, #eaeaea 100%);
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px;
+            max-width: 800px; /* Adjusted max width for card */
+            width: 100%;
+        }
+        .card h1 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .card p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        .card a {
+            color: #0056b3;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .card a:hover {
+            color: #004494;
         }
     </style>
 </head>
 <body>
-<header>
-    <h1>{% block header %}{% endblock %}</h1>
-</header>
-<main>
-    {% block content %}{% endblock %}
-</main>
-<footer>
-    © 2024 Alma X Nikhil. All rights reserved.
-</footer>
+<div class="container">
+    <header>
+        <h1>{% block header %}{% endblock %}</h1>
+    </header>
+    <main>
+        <div class="card">
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+    <footer>
+        © 2024 Alma X Nikhil. All rights reserved.
+    </footer>
+</div>
 </body>
 </html>
