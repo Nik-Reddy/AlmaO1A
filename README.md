@@ -3,7 +3,7 @@ Welcome to our FastAPI application for CV (Curriculum Vitae) analysis! This proj
 
 
 ## Site is  live at:
-https://nik-reddy.github.io/AlmaO1A/
+(https://almao1a-8cb7d32c8318.herokuapp.com/)
 
 ## Documents Walkhtough:
 ### Design and Evaluation_Present Scope.pdf: 
@@ -14,7 +14,14 @@ Future scope and enhancement can be made to the current system to handle a large
 Python Script that contains the FAST API development and use of LLM  model to respond to a given USER CV as text input.
 ### Prompt_file.txt: 
 This file contains the prompting approach used in the process of understanding the input CV text and provides a systematic approach to analyze and provide results based on the given 8 criteria to classify a user into a [LOW, MEDIUM, HIGH] qualified category.
+### .github/workflow.yml: 
+YAML file to include the configurations related to the script execution and API_KEYS used as part of security (parameterized variables)
+### templates Folder:
+Includes the front-end component of the application developed mostly in HTML/CSS and can extend this to Angular or more advanced frameworks.
+### Sample Resume Folder: 
+Attached sample resume considering different criteria satisfied against different users to gauge the performance of the Language Model analysis, further aided in getting accurate and improvised prompting considering the background of the candidate.
 
+## Approach:
 ### Prompt Engineering: Leveraged various prompting techniques like:
 ##### Chain of Thought (CoT) Prompting: mimic a step-by-step reasoning process
 ##### Contextual Embedding: setting the stage for the kind of analysis required
@@ -54,24 +61,30 @@ git clone https://github.com/<yourusername>/<your-repository-name.git>
 pip install -r requirements.txt
 
 ##### Set Environment Variables
-You'll need to set the OPENAI_API_KEY environment variable to use the OpenAI services:
+You'll need to set the OPENAI_API_KEY, and HEROKU_API_KEY environment variables to use the OpenAI services and call Heroku Service via GitHub Actions:
 
+#### Deployment:
+•	Heroku: Chosen for hosting the live application, to leverage Heroku's dynamic scaling and operational flexibility and insightful operational calculations.
+•	Procfile Integration: Contains the command web: uvicorn main:app --host 0.0.0.0 --port $PORT to instruct Heroku on how to start the application.
+
+#### Security and API Integration:
+•	Heroku and OpenAI API Keys: Securely stored as secrets within GitHub Actions and referenced as environment variables within the deployment process. This setup ensures that sensitive information such as API keys remains confidential and protected
 
 export OPENAI_API_KEY='your_openai_api_key_here'
 
 
 ### Running the Application
-##### To run the application, execute:
+##### To run the application on local, execute:
 uvicorn main:app --host <IPV4 Address> --port 8000
 Navigate to http://localhost:8000 in your web browser to see the application in action.
 
-## Usage
+## Application Usage
 ##### Upload a CV: Use the web interface to upload a PDF file containing a CV.
 ![image](https://github.com/Nik-Reddy/AlmaO1A/assets/41942071/c8e4afcc-10e6-4e79-af19-071186b8e6c6)
 
-
 #### Review Analysis: After the CV is processed, the analysis will be displayed on the web page.
 ![image](https://github.com/Nik-Reddy/AlmaO1A/assets/41942071/e8c5b93d-7056-439b-84ae-23fb388bad51)
+
 
 ##### Structure of the Analysis Results: For a given sample Resume. (Attached in Sample Resumes Folder)
 Criterion-Based Evaluation: Each of the eight criteria necessary for the O-1A visa has been individually assessed. The results are presented in a list format, with each criterion followed by a rating (Low, Medium, High) and a brief explanation justifying the rating:
@@ -85,10 +98,11 @@ Criterion-Based Evaluation: Each of the eight criteria necessary for the O-1A vi
 ###### High Remuneration: With insufficient information on salary or remuneration compared to peers, this criterion also received a "Low" rating.
 
 ### Overall Evaluation:
-The summary compiles the ratings across all criteria, providing an overall evaluation of the candidate's qualifications for an O-1A visa:
+The summary compiles the ratings across all criteria, providing an overall evaluation of the candidate's qualifications for an O-1A visa, Below is a sample response:
 ##### High: The candidate meets high standards in original contributions.
 ##### Medium: Significant employment roles are acknowledged.
 ##### Low: Most criteria including awards, membership, press, judging, scholarly articles, and high remuneration did not meet the high standards required.
 
 #### Click "GoBack" to redirect to the home page to upload other documents to start evaluating another document
+
 If you have suggestions for improvements, please fork the repo and submit a pull request, or open an issue with the tag "enhancement".
