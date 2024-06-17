@@ -25,6 +25,8 @@ YAML file to include the configurations related to the script execution and API_
 Includes the front-end component of the application developed mostly in HTML/CSS and can extend this to Angular or more advanced frameworks.
 ### Sample Resume Folder: 
 Attached sample resume considering different criteria satisfied against different users to gauge the performance of the Language Model analysis, further aided in getting accurate and improvised prompting considering the background of the candidate.
+### Flow Diagram.drawio.png
+Flow Diagram for Future purposes - Scaling to large user base
 
 ## Approach:
 ### Prompt Engineering: Leveraged various prompting techniques like:
