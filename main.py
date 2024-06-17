@@ -72,7 +72,7 @@ async def create_upload_file(request: Request, file: UploadFile = File(...)):
                 {"role": "system", "content": "You are a helpful assistant."},
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=1500  # Can adjust this as per requirement - concise answers give easily understandable response
+            max_tokens=1000  # Can adjust this as per requirement - concise answers give easily understandable response
         )
         # Since it's a probabilistic model, it will get a response differently every request but the context remain the same on the results
         result = response.choices[0].message['content']
