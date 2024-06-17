@@ -67,7 +67,7 @@ async def create_upload_file(request: Request, file: UploadFile = File(...)):
         print(api_key)
         openai.api_key = api_key
         response = openai.ChatCompletion.create(
-            model="gpt-4", # Can use other LLMs : gpt-3.5-turbo
+            model="gpt-3.5-turbo", # Can use other LLMs : gpt-4, gpt-3.5-turbo, gpt-4-turbo
             messages=[
                 {"role": "system", "content": "You are a helpful assistant."},
                 {"role": "user", "content": prompt}
