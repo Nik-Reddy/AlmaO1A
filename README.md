@@ -5,6 +5,11 @@ Welcome to our FastAPI application for CV (Curriculum Vitae) analysis! This proj
 ## Site is  live at:
 (https://almao1a-8cb7d32c8318.herokuapp.com/)
 
+## Format Accepted for CV: PDF Only
+Mentioned exception handling if word or other format is submitted for analysis, can extend the scope in the next version of the application  build.
+![image](https://github.com/Nik-Reddy/AlmaO1A/assets/41942071/8e14eff7-ae6c-47fb-9c52-acb39d8c6e8e)
+
+
 ## Documents Walkhtough:
 ### Design and Evaluation_Present Scope.pdf: 
 Explains the current working solution I developed using GPT-4 and other LLMs 
