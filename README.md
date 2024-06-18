@@ -9,7 +9,7 @@ Welcome to our FastAPI application for CV (Curriculum Vitae) analysis! This proj
 Mentioned exception handling if word or other format is submitted for analysis, can extend the scope in the next version of the application build.
 ![image](https://github.com/Nik-Reddy/AlmaO1A/assets/41942071/8e14eff7-ae6c-47fb-9c52-acb39d8c6e8e)
 ## Analysis Response Length
-Currently, the output analysis is limited to 1500 tokens and can increase or decrease depending on the requirement. If overall results are required can limit to a lesser number of tokens.
+Currently, the output analysis is limited to 500 tokens and can increase or decrease depending on the requirement. If overall results are required can limit to a lesser number of tokens.
 ## Documents Walkhtough:
 ### Design and Evaluation_Present Scope.pdf: 
 Explains the current working solution I developed using GPT-4 and other LLMs 
